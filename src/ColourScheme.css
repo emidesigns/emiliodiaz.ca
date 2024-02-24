@@ -1,0 +1,6 @@
+.scheme-circle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: inline-block;
+}
