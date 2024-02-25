@@ -8,10 +8,10 @@ import FixitProServicesImg5 from "./assets/images/mood-board.jpg";
 import FixitProServicesImg6 from "./assets/images/tools.jpg";
 import ToolingLogo1 from "./assets/images/tooling-logos/Figma-Icon.svg";
 import ToolingLogo2 from "./assets/images/tooling-logos/emailJS-logo.png";
-import ToolingLogo3 from "./assets/images/tooling-logos/reCAPTCHA-logo@2x.png";
-import ToolingLogo4 from "./assets/images/tooling-logos/react-logo.png";
-import ToolingLogo5 from "./assets/images/tooling-logos/tailwindcss-logotype.png";
-import ToolingLogo6 from "./assets/images/tooling-logos/vite-logo-BFD4283991-seeklogo.com.png";
+import ToolingLogo3 from "./assets/images/tooling-logos/RecaptchaLogo.svg";
+import ToolingLogo4 from "./assets/images/tooling-logos/react-logo.svg";
+import ToolingLogo5 from "./assets/images/tooling-logos/tailwindcss-mark.svg";
+import ToolingLogo6 from "./assets/images/tooling-logos/Vitejs-logo.svg";
 
 export const portfolioData = [
   {
@@ -23,7 +23,7 @@ export const portfolioData = [
       "This MVP establishes an online presence for fixitproservices, showcasing their services and serving as a central point of contact for customers.",
     task: "Stay in budget, no money for images, include secure contact form.",
     result:
-      "A polished single-page app that embodies the brand and tone of Fixitproservices, empowering the company in acquiring business and providing quotes, with the added touch of my dual role as a photographer and a cameo appearance of my tools.",
+      "A polished website that embodies the brand and tone of Fixitproservices, empowering the company in acquiring business and providing quotes, with the added touch of my dual role as a photographer and a cameo appearance of my tools.",
     images: [FixitProServicesImg1, FixitProServicesImg2, FixitProServicesImg3, FixitProServicesImg4, FixitProServicesImg5, FixitProServicesImg6],
     toolingLogos: [
       ToolingLogo1,

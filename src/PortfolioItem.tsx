@@ -25,10 +25,10 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
     <>
       <div className="text-center">
         <a href={url} target="_blank" rel="noopener noreferrer">
-          <h2 className="text-2xl md:text-4xl font-medium underline">
+          <h2 className="text-2xl md:text-4xl font-bold underline">
             {title}
           </h2>
-          <span className="material-symbols-outlined">link</span>
+          <span className="material-symbols-outlined text-[#0ACF83]">link</span>
         </a>
         <p className="text-2xl pb-6">{description}</p>
       </div>
@@ -38,22 +38,20 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
           <p className="text-sm">{detail}</p>
           <h2 className="text-xl font-medium">Task:</h2>
           <p className="text-sm">{task}</p>
-          
         </div>
         <div>
-        <h2 className="text-xl font-medium">Result:</h2>
+          <h2 className="text-xl font-medium">Result:</h2>
           <p className="text-sm">{result}</p>
           <h2 className="text-xl font-medium">Tools:</h2>
 
-          <div className="flex flex-row">
+          <div className="grid grid-flow-col">
             {toolingLogos.map((logo, index) => (
-              <div key={index}>
-                <img
-                  src={logo}
-                  alt={`Tools ${index + 1}`}
-                  className="max-h-14 my-6 pr-6"
-                />
-              </div>
+              <img
+                key={index}
+                src={logo}
+                alt={`Tools ${index + 1}`}
+                className="max-h-14 my-6 px-3"
+              />
             ))}
           </div>
         </div>

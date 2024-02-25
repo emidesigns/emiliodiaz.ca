@@ -16,7 +16,7 @@ const ColourDot: React.FC<ColourDotProps> = ({ backgroundColor, name, hex }) => 
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-xl font-medium">{name}</h2>
+      <h2 className="text-xl font-medium pb-4">{name}</h2>
       <div style={circleStyle}></div>
       <p>{hex}</p>
     </div>

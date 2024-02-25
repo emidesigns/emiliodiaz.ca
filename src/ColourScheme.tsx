@@ -27,7 +27,8 @@ const ColourScheme = () => {
 
   return (
     <>
-      <div className="grid grid-cols-4 md:py-10">
+    <h2 className="text-2xl font-medium text-center py-10">Colour Palette</h2>
+      <div className="grid grid-cols-2 content-center md:grid-cols-4 md:py-10">
         {colorDotData.map((color, index) => (
           <ColourDot
             key={index}
