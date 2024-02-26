@@ -1,5 +1,3 @@
-import "./PortfolioItem.css";
-
 interface PortfolioItemProps {
   url: string;
   title: string;
@@ -23,7 +21,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 }) => {
   return (
     <>
-      <div className="text-center">
+      <div className="text-center border-t pt-10">
         <a href={url} target="_blank" rel="noopener noreferrer">
           <h2 className="text-2xl md:text-4xl font-bold underline">
             {title}

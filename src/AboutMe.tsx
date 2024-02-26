@@ -1,0 +1,111 @@
+import LinkedInLogo from "./assets/images/LI-In-Bug.png";
+
+const AboutMe = () => {
+  return (
+    <>
+      <section id="about-me" className="mx-auto bg-[#eeeeee] pb-20">
+        <h2 className="text-5xl monster-font text-center py-20">About me</h2>
+        <div className="lg:w-1/2 mx-auto px-10 md:px-12 text-center md:text-left">
+          <h2 className="text-2xl monster-font text-center md:text-left">
+            Hello there!
+          </h2>
+          <p>
+            I'm Emilio, a creative professional dedicated to crafting engaging
+            digital experiences. With a background in UI/UX design and
+            development, I enjoy bringing ideas to life and creating seamless
+            user interfaces.
+          </p>
+          <p>
+            Whether diving into design sprints or conquering enterprise-level
+            front-end challenges, I'm all about making the web a more
+            captivating and accessible place.
+          </p>
+        </div>
+        <div className="lg:w-1/2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-12 pt-10">
+          <div>
+            <h2 className="text-2xl monster-font">
+              Experience
+            </h2>
+            <p>
+              <ul>
+                <li className="pb-2">
+                  <strong>Freelance UI/UX Designer & UI Developer</strong> @
+                  emiliodiaz.ca
+                  <br />
+                  <span className="text-sm">2007 - Present</span>
+                </li>
+                <li className="pb-2">
+                  <strong>Front End Developer</strong> @ Capital One Canada
+                  <br />
+                  <span className="text-sm">2016 - Present</span>
+                </li>
+                <li className="pb-2">
+                  <strong>Digital Designer</strong> @ Capital One Canada
+                  <br />
+                  <span className="text-sm">2012 - 2016</span>
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl monster-font">
+              Software & Tools
+            </h2>
+            <p>
+              <ul>
+                <li>Fimga</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>VS Code</li>
+                <li>React</li>
+                <li>Tailwind CSS</li>
+                <li>Vite</li>
+                <li>JavaScript</li>
+                <li>Wordpress</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl monster-font">
+              Education
+            </h2>
+            <p>
+              <ul>
+                <li className="pb-2">George Brown College – Graphic Design</li>
+                <li className="pb-2">
+                  Self Taught Front End Developer + mentorships at Capital One
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl monster-font">
+              Contact
+            </h2>
+            <p>
+              Keep in touch!{" "}
+              <a href="mailto:ediazdesigns@gmail.com" className="underline">
+                ediazdesigns@gmail.com
+              </a>
+              <a
+                href="https://www.linkedin.com/in/emilio-diaz-53b06716"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={LinkedInLogo}
+                  alt="LinkedIn Logo - Connect with me on LinkedIn"
+                  width="30"
+                  height="30"
+                  className="pt-2"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default AboutMe;

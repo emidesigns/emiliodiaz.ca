@@ -2,7 +2,7 @@ const FontsUsed = () => {
   return (
     <>
       <h2 className="text-2xl font-medium text-center pt-10 pb-2">Fonts</h2>
-      <p className="font-medium text-center">
+      <p className="font-medium text-center pb-4">
         All fonts used in this project including the icons are from{" "}
         <a
           href="https://fonts.google.com/icons"
@@ -30,15 +30,7 @@ const FontsUsed = () => {
             <span className="text-5xl bungee-demo">Bungee</span>
           </div>
           <p className="text-center text-sm">
-            Headings: <strong>Bungee</strong> – Designed by{" "}
-            <a
-              href="https://fonts.google.com/?query=David%20Jonathan%20Ross"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              David Jonathan Ross
-            </a>
+            Headings: <strong>Bungee</strong>
           </p>
         </div>
         <div>
@@ -46,15 +38,7 @@ const FontsUsed = () => {
             <span className="text-5xl inter-demo">Inter</span>
           </div>
           <p className="text-center text-sm">
-            Other content: <strong>Inter</strong> – Designed by{" "}
-            <a
-              href="https://fonts.google.com/?query=Rasmus%20Andersson"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Rasmus Andersson
-            </a>
+            Content: <strong>Inter</strong>
           </p>
         </div>
       </div>

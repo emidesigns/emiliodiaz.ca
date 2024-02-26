@@ -18,7 +18,7 @@ export const portfolioData = [
     url: "https://www.fixitproservices.ca",
     title: "FixitProServices.ca",
     description:
-      "Informational company site – single page app with contact form capability.",
+      "Informational company site with contact form capability.",
     detail:
       "This MVP establishes an online presence for fixitproservices, showcasing their services and serving as a central point of contact for customers.",
     task: "Stay in budget, no money for images, include secure contact form.",

@@ -16,7 +16,7 @@ const Navbar = () => {
               Work
             </a>
             <a href="#about-me" className="nav-link text-md font-regular">
-              About
+              About Me
             </a>
           </div>
         </div>
