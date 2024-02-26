@@ -23,7 +23,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
     <>
       <div className="text-center border-t pt-10">
         <a href={url} target="_blank" rel="noopener noreferrer">
-          <h2 className="text-2xl md:text-4xl font-bold underline">
+          <h2 className="monster-font text-2xl md:text-4xl underline">
             {title}
           </h2>
           <span className="material-symbols-outlined text-[#0ACF83]">link</span>

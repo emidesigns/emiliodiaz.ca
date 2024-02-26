@@ -1,0 +1,4 @@
+.circle-style {
+  -webkit-box-shadow: 0px 0px 16px 10px rgba(184, 184, 184, 0.19);
+  box-shadow: 0px 0px 16px 10px rgba(184, 184, 184, 0.19);
+}

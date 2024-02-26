@@ -1,4 +1,5 @@
 import React from "react";
+import "./ColourDot.css";
 
 interface ColourDotProps {
   name: string;
@@ -17,7 +18,7 @@ const ColourDot: React.FC<ColourDotProps> = ({ backgroundColor, name, hex }) => 
   return (
     <div className="flex flex-col items-center">
       <h2 className="text-xl font-medium pb-4">{name}</h2>
-      <div style={circleStyle}></div>
+      <div style={circleStyle} className="circle-style"></div>
       <p>{hex}</p>
     </div>
   );
