@@ -4,8 +4,8 @@ const AboutMe = () => {
   return (
     <>
       <section id="about-me" className="mx-auto bg-[#eeeeee] pb-20">
-        <h2 className="text-5xl monster-font text-center py-20">About me</h2>
-        <div className="lg:w-1/2 mx-auto px-10 md:px-12 text-center md:text-left">
+        <h2 className="text-5xl monster-font text-center pt-20 py-10">About me</h2>
+        <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center md:text-left">
           <h2 className="text-2xl monster-font text-center md:text-left">
             Hello there!
           </h2>
@@ -21,67 +21,56 @@ const AboutMe = () => {
             captivating and accessible place.
           </p>
         </div>
-        <div className="lg:w-1/2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-12 pt-10">
+
+        <div className="lg:w-2/3 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-12 pt-10">
           <div>
-            <h2 className="text-2xl monster-font">
-              Experience
-            </h2>
-            <p>
-              <ul>
-                <li className="pb-2">
-                  <strong>Freelance UI/UX Designer & UI Developer</strong> @
-                  emiliodiaz.ca
-                  <br />
-                  <span className="text-sm">2007 - Present</span>
-                </li>
-                <li className="pb-2">
-                  <strong>Front End Developer</strong> @ Capital One Canada
-                  <br />
-                  <span className="text-sm">2016 - Present</span>
-                </li>
-                <li className="pb-2">
-                  <strong>Digital Designer</strong> @ Capital One Canada
-                  <br />
-                  <span className="text-sm">2012 - 2016</span>
-                </li>
-              </ul>
-            </p>
+            <h2 className="text-2xl monster-font pb-5">Experience</h2>
+            <ul>
+              <li className="pb-2">
+                <strong>Freelance UI/UX Designer & UI Developer</strong> @
+                emiliodiaz.ca
+                <br />
+                <span className="text-sm">2007 - Present</span>
+              </li>
+              <li className="pb-2">
+                <strong>Front End Developer</strong> @ Capital One Canada
+                <br />
+                <span className="text-sm">2016 - Present</span>
+              </li>
+              <li className="pb-2">
+                <strong>Digital Designer</strong> @ Capital One Canada
+                <br />
+                <span className="text-sm">2012 - 2016</span>
+              </li>
+            </ul>
           </div>
           <div>
-            <h2 className="text-2xl monster-font">
-              Software & Tools
-            </h2>
-            <p>
-              <ul>
-                <li>Fimga</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>VS Code</li>
-                <li>React</li>
-                <li>Tailwind CSS</li>
-                <li>Vite</li>
-                <li>JavaScript</li>
-                <li>Wordpress</li>
-              </ul>
-            </p>
+            <h2 className="text-2xl monster-font pb-5">Software & Tools</h2>
+
+            <ul>
+              <li>Fimga</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>VS Code</li>
+              <li>React</li>
+              <li>Tailwind CSS</li>
+              <li>Vite</li>
+              <li>JavaScript</li>
+              <li>Wordpress</li>
+            </ul>
           </div>
           <div>
-            <h2 className="text-2xl monster-font">
-              Education
-            </h2>
-            <p>
-              <ul>
-                <li className="pb-2">George Brown College – Graphic Design</li>
-                <li className="pb-2">
-                  Self Taught Front End Developer + mentorships at Capital One
-                </li>
-              </ul>
-            </p>
+            <h2 className="text-2xl monster-font pb-5">Education</h2>
+
+            <ul>
+              <li className="pb-2">George Brown College – Graphic Design</li>
+              <li className="pb-2">
+                Self Taught Front End Developer + mentorships at Capital One
+              </li>
+            </ul>
           </div>
           <div>
-            <h2 className="text-2xl monster-font">
-              Contact
-            </h2>
+            <h2 className="text-2xl monster-font">Contact</h2>
             <p>
               Keep in touch!{" "}
               <a href="mailto:ediazdesigns@gmail.com" className="underline">
@@ -101,6 +90,42 @@ const AboutMe = () => {
                 />
               </a>
             </p>
+          </div>
+        </div>
+        <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center md:text-left">
+        <h2 className="text-5xl monster-font text-center pt-20">
+            How I work
+          </h2>
+          <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
+            <div>
+              <h2 className="text-2xl monster-font">Research Phase:</h2>{" "}
+              <p>
+                During the initial consultation, I engage in a detailed
+                conversation with the client to grasp the project's objectives
+                and key deliverables.
+              </p>
+              <p>
+                {" "}
+                I delve into understanding the company's positioning in the
+                market.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-2xl monster-font">Prototyping:</h2>{" "}
+              <p>
+                I develop the information architecture, crafting wireframes
+                that delineate the fundamental structure and layout of the
+                project, and incorporating feedback to refine design concepts.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-2xl monster-font">Design & Development:</h2>{" "}
+              <p>
+                I then structure the information architecture, crafting wireframes
+                that delineate the fundamental structure and layout of the
+                project, and incorporating feedback to refine design concepts.
+              </p>
+            </div>
           </div>
         </div>
       </section>

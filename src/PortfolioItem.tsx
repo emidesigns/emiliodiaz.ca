@@ -21,7 +21,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 }) => {
   return (
     <>
-      <div className="text-center border-t pt-10">
+      <div className="text-center pt-10">
         <a href={url} target="_blank" rel="noopener noreferrer">
           <h2 className="monster-font text-2xl md:text-4xl underline">
             {title}
