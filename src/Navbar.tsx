@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav role="navigation" className="p-4 px-10 md:px-0 text-black bg-white sticky top-0 z-50">
+    <nav role="navigation" className="p-4 px-10 md:px-0 text-black bg-white sticky top-0">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <a href="#" aria-label="Home">

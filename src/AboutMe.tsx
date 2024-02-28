@@ -4,11 +4,10 @@ const AboutMe = () => {
   return (
     <>
       <section id="about-me" className="mx-auto bg-[#eeeeee] pb-20">
-        <h2 className="text-5xl monster-font text-center pt-20 py-10">About me</h2>
-        <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center md:text-left">
-          <h2 className="text-2xl monster-font text-center md:text-left">
-            Hello there!
-          </h2>
+        <h2 className="text-5xl md:text-7xl/[100px] monster-font text-center pt-20 py-10">
+          About me
+        </h2>
+        <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center pb-10">
           <p>
             I'm Emilio, a creative professional dedicated to crafting engaging
             digital experiences. With a background in UI/UX design and
@@ -93,13 +92,13 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center md:text-left">
-        <h2 className="text-5xl monster-font text-center pt-20">
+          <h2 className="text-5xl monster-font text-center pt-20">
             How I work
           </h2>
           <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
-            <div>
+            <div className="text-sm">
               <h2 className="text-2xl monster-font">Research Phase:</h2>{" "}
-              <p>
+              <p className="text-sm">
                 During the initial consultation, I engage in a detailed
                 conversation with the client to grasp the project's objectives
                 and key deliverables.
@@ -110,20 +109,23 @@ const AboutMe = () => {
                 market.
               </p>
             </div>
-            <div>
+            <div className="text-sm">
               <h2 className="text-2xl monster-font">Prototyping:</h2>{" "}
               <p>
-                I develop the information architecture, crafting wireframes
-                that delineate the fundamental structure and layout of the
-                project, and incorporating feedback to refine design concepts.
+                I develop the information architecture, crafting wireframes that
+                delineate the fundamental structure and layout of the project,
+                and incorporate feedback to refine design concepts.
               </p>
             </div>
-            <div>
+            <div className="text-sm">
               <h2 className="text-2xl monster-font">Design & Development:</h2>{" "}
-              <p>
-                I then structure the information architecture, crafting wireframes
-                that delineate the fundamental structure and layout of the
-                project, and incorporating feedback to refine design concepts.
+              <p className="text-sm">
+                During this phase, the high-definition Figma design begins to
+                materialize, incorporating appropriate images, illustrations,
+                and meticulously edited content to effectively convey the
+                intended message. Once the Figmas receive approval and all
+                feedback has been thoughtfully considered, the development work
+                kicks off
               </p>
             </div>
           </div>

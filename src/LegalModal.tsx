@@ -20,7 +20,7 @@ const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
       style={customStyles}
       contentLabel="Legal Information Modal"
     >
-      <div className="border p-8">
+      <div className="border md:p-8">
         <div className="text-right">
           <button onClick={onClose}>
             <span className="material-symbols-outlined">close</span>
@@ -71,6 +71,14 @@ const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
           to me at the provided email address. Thank you for trusting me with
           your information. Best regards, Emilio Diaz.
         </p>
+
+        <h2 className="text-2xl">Legal</h2>
+        <p>
+          LinkedIn, the LinkedIn logo, the IN logo and InMail are registered
+          trademarks or trademarks of LinkedIn Corporation and its affiliates in
+          the United States and/or other countries.
+        </p>
+
         <button onClick={onClose}>Close</button>
       </div>
     </Modal>

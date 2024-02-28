@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <section className="text-center pb-10 main-background">
-        <div className="monster-font text-5xl md:text-8xl/[100px] pt-10">
+        <div className="monster-font text-5xl md:text-8xl/[100px] pt-10 md:pt-20">
           UI/UX Designer
           <br />& Developer
         </div>
@@ -22,7 +22,7 @@ function App() {
           and visual appeal work in harmony.
         </p>
       </section>
-      <div className="container mx-auto px-10 md:px-0 border">
+      <div className="container mx-auto px-10 md:px-0 ">
         <section id="recent-work" className="pb-10">
           <div className="monster-font text-5xl md:text-7xl/[100px] text-center py-8 md:py-20">
             Recent Work
