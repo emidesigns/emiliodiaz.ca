@@ -21,7 +21,7 @@ const AboutMe = () => {
           </p>
         </div>
 
-        <div className="lg:w-2/3 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-12 pt-10">
+        <div className="lg:w-2/3 mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-10 md:px-12 pt-10">
           <div>
             <h2 className="text-2xl monster-font pb-5">Experience</h2>
             <ul>
@@ -56,16 +56,6 @@ const AboutMe = () => {
               <li>Vite</li>
               <li>JavaScript</li>
               <li>Wordpress</li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="text-2xl monster-font pb-5">Education</h2>
-
-            <ul>
-              <li className="pb-2">George Brown College – Graphic Design</li>
-              <li className="pb-2">
-                Self Taught Front End Developer + mentorships at Capital One
-              </li>
             </ul>
           </div>
           <div>
@@ -120,7 +110,7 @@ const AboutMe = () => {
             <div className="text-sm">
               <h2 className="text-2xl monster-font">Design & Development:</h2>{" "}
               <p className="text-sm">
-                During this phase, the high-definition Figma design begins to
+                During this phase, the high-fidelity Figma design begins to
                 materialize, incorporating appropriate images, illustrations,
                 and meticulously edited content to effectively convey the
                 intended message. Once the Figmas receive approval and all
