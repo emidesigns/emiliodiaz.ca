@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="text-center pb-10 main-background">
+      <section className="text-center pb-10">
         <div className="monster-font text-5xl md:text-8xl/[100px] pt-10 md:pt-20">
           UI/UX Designer
           <br />& Developer
@@ -24,7 +24,7 @@ function App() {
       </section>
       <div className="container mx-auto px-10 md:px-0 ">
         <section id="recent-work" className="pb-10">
-          <div className="monster-font text-5xl md:text-7xl/[100px] text-center py-8 md:py-20">
+          <div className="monster-font text-5xl md:text-7xl/[100px] text-center py-8">
             Recent Work
           </div>
           {portfolioData.map((item, index) => (
