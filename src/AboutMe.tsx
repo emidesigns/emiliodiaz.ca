@@ -85,37 +85,56 @@ const AboutMe = () => {
           <h2 className="text-5xl monster-font text-center pt-20">
             How I work
           </h2>
-          <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
+          <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 pt-10">
             <div className="text-sm">
-              <h2 className="text-2xl monster-font">Research Phase:</h2>{" "}
-              <p className="text-sm">
-                During the initial consultation, I engage in a detailed
-                conversation with the client to grasp the project's objectives
-                and key deliverables.
-              </p>
+              <h2 className="text-xl monster-font">
+                1. Research and Discovery:
+              </h2>{" "}
               <p>
-                {" "}
-                I delve into understanding the company's positioning in the
-                market.
+                I kick off projects with extensive research, examining the
+                target audience, business goals, and industry trends.
               </p>
             </div>
             <div className="text-sm">
-              <h2 className="text-2xl monster-font">Prototyping:</h2>{" "}
+              <h2 className="text-xl monster-font">2. Conceptualization:</h2>{" "}
               <p>
-                I develop the information architecture, crafting wireframes that
-                delineate the fundamental structure and layout of the project,
-                and incorporate feedback to refine design concepts.
+                I distill research into user personas, identifying pain points
+                and motivations. Then, through ideation and collaboration with
+                stakeholders, I align design solutions with project objectives.
               </p>
             </div>
             <div className="text-sm">
-              <h2 className="text-2xl monster-font">Design & Development:</h2>{" "}
-              <p className="text-sm">
-                During this phase, the high-fidelity Figma design begins to
-                materialize, incorporating appropriate images, illustrations,
-                and meticulously edited content to effectively convey the
-                intended message. Once the Figmas receive approval and all
-                feedback has been thoughtfully considered, the development work
-                kicks off
+              <h2 className="text-xl monster-font">
+                3. Information Architecture & Wireframing:
+              </h2>{" "}
+              <p>
+                I organize content with logical information architecture, craft
+                interface frameworks through wireframing, and iterate based on
+                stakeholder feedback.
+              </p>
+            </div>
+            <div className="text-sm">
+              <h2 className="text-xl monster-font">4. Prototyping:</h2>{" "}
+              <p>
+                I create interactive prototypes in Figma, conduct usability
+                testing for feedback, and iterate based on user insights to
+                refine the design.
+              </p>
+            </div>
+            <div className="text-sm">
+              <h2 className="text-xl monster-font">5. Visual Design:</h2>{" "}
+              <p>
+                I apply visual elements for UI enhancement, ensuring consistency
+                with brand guidelines. Collaborating with stakeholders, I align
+                visual design with project goals.
+              </p>
+            </div>
+            <div className="text-sm">
+              <h2 className="text-xl monster-font">6. Development:</h2>{" "}
+              <p>
+                Start developing finalized designs, using specifications to
+                produce assets for seamless implementation, and promptly address
+                any design-related issues during development.
               </p>
             </div>
           </div>
