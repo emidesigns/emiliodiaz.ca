@@ -5,6 +5,7 @@ interface PortfolioItemProps {
   detail: string;
   task: string;
   result: string;
+  video: string;
   images: string[];
   toolingLogos: string[];
 }
@@ -16,6 +17,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
   detail,
   task,
   result,
+  video,
   images,
   toolingLogos,
 }) => {
@@ -55,6 +57,9 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
         </div>
       </div>
 
+      <div className="flex flex-col">
+        <video src={video} autoPlay loop playsInline muted></video>
+      </div>
       <div className="flex flex-col">
         {images.map((image, index) => (
           <div key={index}>
