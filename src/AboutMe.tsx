@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className="lg:w-2/3 mx-auto px-10 md:px-12 text-center pb-10">
           <p>
             I'm Emilio, a creative professional dedicated to crafting engaging
-            digital experiences. With a background in UI/UX design and
+            digital experiences. With a background in Product design and
             development, I enjoy bringing ideas to life and creating seamless
             user interfaces.
           </p>
@@ -26,13 +26,13 @@ const AboutMe = () => {
             <h2 className="text-2xl monster-font pb-5">Experience</h2>
             <ul>
               <li className="pb-2">
-                <strong>Freelance UI/UX Designer & UI Developer</strong> @
+                <strong>Freelance Product Designer & Frontend Developer</strong> @
                 emiliodiaz.ca
                 <br />
                 <span className="text-sm">2007 - Present</span>
               </li>
               <li className="pb-2">
-                <strong>Front End Developer</strong> @ Capital One Canada
+                <strong>Frontend Developer</strong> @ Capital One Canada
                 <br />
                 <span className="text-sm">2016 - Present</span>
               </li>

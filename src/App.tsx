@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <section className="text-center pb-10">
         <div className="monster-font text-5xl md:text-8xl/[100px] pt-10 md:pt-20">
-          UI/UX Designer
+          Product Designer
           <br />& Developer
         </div>
         <p className="md:w-1/2 mx-auto md:py-10 px-10 md:px-2">
